@@ -2,8 +2,8 @@ name: Genera Feed RSS CISA KEV
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Esegue la scansione ogni mattina alle 06:00 UTC
-  workflow_dispatch: # Permette di avviarlo anche manualmente a comando
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -40,13 +40,20 @@ jobs:
           fg.description('Catalogo CISA delle vulnerabilità attivamente sfruttate')
 
           vulnerabilities = data.get('vulnerabilities', [])
-          for vuln in vulnerabilities[-50:]:
+          
+          # Prendiamo gli ultimi 30 elementi presenti nel catalogo CISA
+          for vuln in vulnerabilities[-30:]:
               cve_id = vuln.get('cveID', '')
               fe = fg.add_entry()
-              fe.id(f"https://nvd.nist.gov/vuln/detail/{cve_id}")
+              
+              # L'ID univoco garantisce che Power Automate NON notifichi due volte lo stesso CVE
+              fe.id(f"cisa-kev-{cve_id}")
+              fe.guid(f"cisa-kev-{cve_id}", permalink=False)
+              
               fe.title(f"[{cve_id}] {vuln.get('vendorProject')} - {vuln.get('product')}: {vuln.get('vulnerabilityName')}")
               fe.link(href=f"https://nvd.nist.gov/vuln/detail/{cve_id}")
-              fe.description(f"Azione richiesta: {vuln.get('requiredAction')} | Descrizione: {vuln.get('shortDescription')}")
+              fe.description(f"Azione richiesta: {vuln.get('requiredAction')} | Scadenza: {vuln.get('dueDate')} | Descrizione: {vuln.get('shortDescription')}")
+              
               if 'dateAdded' in vuln:
                   fe.pubDate(f"{vuln['dateAdded']}T00:00:00Z")
 
