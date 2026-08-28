@@ -1,0 +1,63 @@
+name: Genera Feed RSS CISA KEV
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Esegue la scansione ogni mattina alle 06:00 UTC
+  workflow_dispatch: # Permette di avviarlo anche manualmente a comando
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codice
+        uses: actions/checkout@v4
+
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Installa le librerie necessarie
+        run: pip install requests feedgen
+
+      - name: Genera il file RSS
+        run: |
+          cat << 'EOF' > generate.py
+          import requests
+          from feedgen.feed import FeedGenerator
+
+          response = requests.get("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json")
+          data = response.json()
+
+          fg = FeedGenerator()
+          fg.title(data.get('title', 'CISA KEV'))
+          fg.link(href='https://www.cisa.gov/known-exploited-vulnerabilities-catalog', rel='alternate')
+          fg.description('Catalogo CISA delle vulnerabilità attivamente sfruttate')
+
+          vulnerabilities = data.get('vulnerabilities', [])
+          for vuln in vulnerabilities[-50:]:
+              cve_id = vuln.get('cveID', '')
+              fe = fg.add_entry()
+              fe.id(f"https://nvd.nist.gov/vuln/detail/{cve_id}")
+              fe.title(f"[{cve_id}] {vuln.get('vendorProject')} - {vuln.get('product')}: {vuln.get('vulnerabilityName')}")
+              fe.link(href=f"https://nvd.nist.gov/vuln/detail/{cve_id}")
+              fe.description(f"Azione richiesta: {vuln.get('requiredAction')} | Descrizione: {vuln.get('shortDescription')}")
+              if 'dateAdded' in vuln:
+                  fe.pubDate(f"{vuln['dateAdded']}T00:00:00Z")
+
+          fg.rss_file('rss.xml')
+          EOF
+          python generate.py
+
+      - name: Upload artifact per Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy su GitHub Pages
+        uses: actions/deploy-pages@v4
