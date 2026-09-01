@@ -62,4 +62,7 @@ rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 </rss>
 """
 
-with open("
+with open("rss.xml", "w", encoding="utf-8") as f:
+    f.write(rss)
+
+print(f"Generated RSS for dateAdded={yesterday}")
