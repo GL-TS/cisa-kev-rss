@@ -1,0 +1,36 @@
+name: Generate CISA KEV RSS
+
+on:
+  schedule:
+    - cron: '1 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate RSS
+        run: python generate_feed.py
+
+      - name: Commit RSS
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add rss.xml
+
+          git diff --staged --quiet || git commit -m "Update rss.xml"
+
+          git push
