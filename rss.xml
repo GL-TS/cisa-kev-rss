@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>CISA KEV Daily Feed</title>
+<link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
+<description>CISA KEV vulnerabilities added yesterday</description>
+
+    <item>
+        <title>CVE-2026-82078 - PaperCut - NG/MF</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-82078</link>
+        <guid>CVE-2026-82078</guid>
+        <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>PaperCut NG/MF Unsafe Reflection Vulnerability</b><br/>
+Vendor: PaperCut<br/>
+Product: NG/MF<br/><br/>
+PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut server process. This vulnerability can be chained with CVE-2026-81578.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-81578 - PaperCut - NG/MF</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-81578</link>
+        <guid>CVE-2026-81578</guid>
+        <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>PaperCut NG/MF Missing Authentication for Critical Function Vulnerability</b><br/>
+Vendor: PaperCut<br/>
+Product: NG/MF<br/><br/>
+PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.
+        ]]></description>
+    </item>
+
+</channel>
+</rss>
