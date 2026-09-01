@@ -31,6 +31,6 @@ jobs:
 
           git add rss.xml
 
-          git diff --staged --quiet || git commit -m "Update rss.xml"
+          git commit --allow-empty -m "Update RSS $(date +%s)"
 
           git push
