@@ -5,7 +5,7 @@ from xml.sax.saxutils import escape
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
-# Ieri (UTC)
+# Giorno precedente
 yesterday = (datetime.utcnow() - timedelta(days=1)).strftime("%Y-%m-%d")
 
 with urlopen(KEV_URL) as response:
@@ -40,7 +40,7 @@ for vuln in data["vulnerabilities"]:
     <item>
         <title>{escape(title)}</title>
         <link>{escape(link)}</link>
-        <guid>{escape(cve)}</guid>
+        <guid isPermaLink="false">{escape(cve)}</guid>
         <pubDate>{pub_date}</pubDate>
         <description><![CDATA[
 <b>{escape(vuln_name)}</b><br/>
@@ -51,12 +51,16 @@ Product: {escape(product)}<br/><br/>
     </item>
 """)
 
+# Data/ora di generazione del feed
+build_date = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+
 rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
+<lastBuildDate>{build_date}</lastBuildDate>
 {''.join(items)}
 </channel>
 </rss>
@@ -66,3 +70,4 @@ with open("rss.xml", "w", encoding="utf-8") as f:
     f.write(rss)
 
 print(f"Generated RSS for dateAdded={yesterday}")
+print(f"Build date: {build_date}")
