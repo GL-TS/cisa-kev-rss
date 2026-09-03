@@ -2,11 +2,15 @@ import json
 from datetime import datetime, timedelta
 from urllib.request import urlopen
 from xml.sax.saxutils import escape
+from zoneinfo import ZoneInfo
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
-# Giorno precedente
-yesterday = (datetime.utcnow() - timedelta(days=1)).strftime("%Y-%m-%d")
+# Data e ora italiane
+italy_now = datetime.now(ZoneInfo("Europe/Rome"))
+
+# Giorno precedente (ora italiana)
+yesterday = (italy_now - timedelta(days=1)).strftime("%Y-%m-%d")
 
 with urlopen(KEV_URL) as response:
     data = json.load(response)
@@ -52,7 +56,7 @@ Product: {escape(product)}<br/><br/>
 """)
 
 # Data/ora di generazione del feed
-build_date = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+build_date = italy_now.strftime("%Y-%m-%d %H:%M:%S Europe/Rome")
 
 rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -71,3 +75,4 @@ with open("rss.xml", "w", encoding="utf-8") as f:
 
 print(f"Generated RSS for dateAdded={yesterday}")
 print(f"Build date: {build_date}")
+print(f"Items generated: {len(items)}")
