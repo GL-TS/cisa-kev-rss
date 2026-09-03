@@ -4,7 +4,98 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-02 22:08:23 UTC</lastBuildDate>
+<lastBuildDate>2026-09-03 11:02:09 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-59822 - BerriAI - LiteLLM</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-59822</link>
+        <guid isPermaLink="false">CVE-2026-59822</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>BerriAI LiteLLM Improper Authentication Vulnerability</b><br/>
+Vendor: BerriAI<br/>
+Product: LiteLLM<br/><br/>
+BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-48710 - Kludex - Starlette</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48710</link>
+        <guid isPermaLink="false">CVE-2026-48710</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Kludex Starlette HTTP Request/Response Smuggling Vulnerability</b><br/>
+Vendor: Kludex<br/>
+Product: Starlette<br/><br/>
+Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL’s path. This vulnerability could be chaned with CVE-2026-42271.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-49869 - Kestra - Kestra OSS</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-49869</link>
+        <guid isPermaLink="false">CVE-2026-49869</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Kestra OSS OS Command Injection Vulnerability</b><br/>
+Vendor: Kestra<br/>
+Product: Kestra OSS<br/><br/>
+Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-82329 - JFrog - Artifactory</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-82329</link>
+        <guid isPermaLink="false">CVE-2026-82329</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>JFrog Artifactory Improper Authentication Vulnerability</b><br/>
+Vendor: JFrog<br/>
+Product: Artifactory<br/><br/>
+JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. 
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-9586 - Sangoma - Switchvox</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9586</link>
+        <guid isPermaLink="false">CVE-2026-9586</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Sangoma Switchvox SQL Injection Vulnerability</b><br/>
+Vendor: Sangoma<br/>
+Product: Switchvox<br/><br/>
+Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and remote code execution.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-83548 - SonicWall - SMA1000 Appliances</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83548</link>
+        <guid isPermaLink="false">CVE-2026-83548</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability</b><br/>
+Vendor: SonicWall<br/>
+Product: SMA1000 Appliances<br/><br/>
+SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-83549 - SonicWall - SMA1000 Appliances</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83549</link>
+        <guid isPermaLink="false">CVE-2026-83549</guid>
+        <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>SonicWall SMA1000 Appliances OS Command Injection Vulnerability</b><br/>
+Vendor: SonicWall<br/>
+Product: SMA1000 Appliances<br/><br/>
+SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
