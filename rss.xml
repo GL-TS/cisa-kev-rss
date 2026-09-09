@@ -4,57 +4,57 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-09 00:08:48 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-09-10 00:08:00 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-75650 - Adobe - Commerce and Magento</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-75650</link>
-        <guid isPermaLink="false">CVE-2026-75650</guid>
-        <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-19490 - Citrix - NetScaler</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19490</link>
+        <guid isPermaLink="false">CVE-2026-19490</guid>
+        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability</b><br/>
-Vendor: Adobe<br/>
-Product: Commerce and Magento<br/><br/>
-Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.
+<b>Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability</b><br/>
+Vendor: Citrix<br/>
+Product: NetScaler<br/><br/>
+Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2026-81963 - Microsoft - Windows</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-81963</link>
-        <guid isPermaLink="false">CVE-2026-81963</guid>
-        <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2025-25249 - Fortinet - Multiple Products</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-25249</link>
+        <guid isPermaLink="false">CVE-2025-25249</guid>
+        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Microsoft Windows Link Following Vulnerability</b><br/>
-Vendor: Microsoft<br/>
-Product: Windows<br/><br/>
-Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.
+<b>Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability</b><br/>
+Vendor: Fortinet<br/>
+Product: Multiple Products<br/><br/>
+Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2026-86218 - N-able - N-central</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86218</link>
-        <guid isPermaLink="false">CVE-2026-86218</guid>
-        <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-87491 - Google - Chromium V8</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-87491</link>
+        <guid isPermaLink="false">CVE-2026-87491</guid>
+        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>N-able N-central Static Code Injection Vulnerability</b><br/>
-Vendor: N-able<br/>
-Product: N-central<br/><br/>
-N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.
+<b>Google Chromium V8 Out of Bounds Write Vulnerability</b><br/>
+Vendor: Google<br/>
+Product: Chromium V8<br/><br/>
+Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2026-85880 - Microsoft - Windows</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-85880</link>
-        <guid isPermaLink="false">CVE-2026-85880</guid>
-        <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-20079 - Cisco - Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20079</link>
+        <guid isPermaLink="false">CVE-2026-20079</guid>
+        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Microsoft Windows Heap-Based Buffer Overflow Vulnerability</b><br/>
-Vendor: Microsoft<br/>
-Product: Windows<br/><br/>
-Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.
+<b>Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability</b><br/>
+Vendor: Cisco<br/>
+Product: Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management<br/><br/>
+Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.
         ]]></description>
     </item>
 
