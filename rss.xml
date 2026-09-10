@@ -4,57 +4,31 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-10 00:08:00 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-09-11 00:07:46 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-19490 - Citrix - NetScaler</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19490</link>
-        <guid isPermaLink="false">CVE-2026-19490</guid>
-        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-86060 - MikroTik - RouterOS</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86060</link>
+        <guid isPermaLink="false">CVE-2026-86060</guid>
+        <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability</b><br/>
-Vendor: Citrix<br/>
-Product: NetScaler<br/><br/>
-Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication.
+<b>MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability</b><br/>
+Vendor: MikroTik<br/>
+Product: RouterOS<br/><br/>
+MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2025-25249 - Fortinet - Multiple Products</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-25249</link>
-        <guid isPermaLink="false">CVE-2025-25249</guid>
-        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-67277 - MikroTik - RouterOS</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-67277</link>
+        <guid isPermaLink="false">CVE-2026-67277</guid>
+        <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability</b><br/>
-Vendor: Fortinet<br/>
-Product: Multiple Products<br/><br/>
-Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-87491 - Google - Chromium V8</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-87491</link>
-        <guid isPermaLink="false">CVE-2026-87491</guid>
-        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Google Chromium V8 Out of Bounds Write Vulnerability</b><br/>
-Vendor: Google<br/>
-Product: Chromium V8<br/><br/>
-Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-20079 - Cisco - Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20079</link>
-        <guid isPermaLink="false">CVE-2026-20079</guid>
-        <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability</b><br/>
-Vendor: Cisco<br/>
-Product: Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management<br/><br/>
-Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.
+<b>MikroTik RouterOS Missing Authentication for Critical Function Vulnerability</b><br/>
+Vendor: MikroTik<br/>
+Product: RouterOS<br/><br/>
+MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.
         ]]></description>
     </item>
 
