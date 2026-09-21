@@ -4,7 +4,20 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-21 00:07:22 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-09-22 00:08:14 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-7273 - Zyxel - GS1900 Series Switches</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-7273</link>
+        <guid isPermaLink="false">CVE-2026-7273</guid>
+        <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability</b><br/>
+Vendor: Zyxel<br/>
+Product: GS1900 Series Switches<br/><br/>
+Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
