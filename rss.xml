@@ -4,7 +4,33 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-24 00:08:22 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-09-25 00:08:24 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-5430 - WSO2 - Multiple Products</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-5430</link>
+        <guid isPermaLink="false">CVE-2026-5430</guid>
+        <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>WSO2 Multiple Products Path Traversal Vulnerability </b><br/>
+Vendor: WSO2<br/>
+Product: Multiple Products<br/><br/>
+WSO2 API Control Plane, API Manager, Traffic Manager &amp; Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. 
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-71362 - Adobe - Commerce and Magento </title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-71362</link>
+        <guid isPermaLink="false">CVE-2026-71362</guid>
+        <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Adobe Commerce and Magento Incorrect Authorization Vulnerability </b><br/>
+Vendor: Adobe<br/>
+Product: Commerce and Magento <br/><br/>
+Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. 
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
