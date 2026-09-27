@@ -4,7 +4,33 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-27 00:07:56 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-09-28 00:07:44 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-88772 - Citrix - NetScaler</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88772</link>
+        <guid isPermaLink="false">CVE-2026-88772</guid>
+        <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability</b><br/>
+Vendor: Citrix<br/>
+Product: NetScaler<br/><br/>
+Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-88771 - Citrix - NetScaler</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88771</link>
+        <guid isPermaLink="false">CVE-2026-88771</guid>
+        <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Citrix NetScaler Improper Input Validation Vulnerability</b><br/>
+Vendor: Citrix<br/>
+Product: NetScaler<br/><br/>
+Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
