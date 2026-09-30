@@ -4,7 +4,20 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-29 03:26:35 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-09-30 03:00:52 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-86950 - Apple - Multiple Products</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86950</link>
+        <guid isPermaLink="false">CVE-2026-86950</guid>
+        <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Apple Multiple Products Out-of-Bounds Write Vulnerability</b><br/>
+Vendor: Apple<br/>
+Product: Multiple Products<br/><br/>
+Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
