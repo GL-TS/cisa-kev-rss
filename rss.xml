@@ -4,18 +4,18 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-09-30 03:00:52 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-01 03:02:20 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-86950 - Apple - Multiple Products</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86950</link>
-        <guid isPermaLink="false">CVE-2026-86950</guid>
-        <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-76504 - Cisco - Catalyst SD-WAN Manager</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76504</link>
+        <guid isPermaLink="false">CVE-2026-76504</guid>
+        <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Apple Multiple Products Out-of-Bounds Write Vulnerability</b><br/>
-Vendor: Apple<br/>
-Product: Multiple Products<br/><br/>
-Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.
+<b>Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability</b><br/>
+Vendor: Cisco<br/>
+Product: Catalyst SD-WAN Manager<br/><br/>
+Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.
         ]]></description>
     </item>
 
