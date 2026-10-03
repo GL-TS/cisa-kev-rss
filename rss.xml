@@ -4,18 +4,31 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-02 03:16:01 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-03 02:54:07 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-104286 - Fortinet - FortiMail</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104286</link>
-        <guid isPermaLink="false">CVE-2026-104286</guid>
-        <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-102490 - Zammad GmbH - Zammad</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102490</link>
+        <guid isPermaLink="false">CVE-2026-102490</guid>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Fortinet FortiMail Path Traversal Vulnerability</b><br/>
-Vendor: Fortinet<br/>
-Product: FortiMail<br/><br/>
-Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.
+<b>Zammad GmbH Zammad Improper Privilege Management Vulnerability</b><br/>
+Vendor: Zammad GmbH<br/>
+Product: Zammad<br/><br/>
+Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-102489 - Zammad GmbH - Zammad</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102489</link>
+        <guid isPermaLink="false">CVE-2026-102489</guid>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Zammad GmbH Zammad Session Fixation Vulnerability</b><br/>
+Vendor: Zammad GmbH<br/>
+Product: Zammad<br/><br/>
+Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.
         ]]></description>
     </item>
 
