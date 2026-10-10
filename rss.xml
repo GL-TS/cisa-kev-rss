@@ -4,72 +4,7 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-09 03:42:38 Europe/Rome</lastBuildDate>
-
-    <item>
-        <title>CVE-2015-5477 - ISC - BIND</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-5477</link>
-        <guid isPermaLink="false">CVE-2015-5477</guid>
-        <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b> ISC BIND Data Processing Errors Vulnerability</b><br/>
-Vendor: ISC<br/>
-Product: BIND<br/><br/>
-ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2016-3081 - Apache - Struts</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2016-3081</link>
-        <guid isPermaLink="false">CVE-2016-3081</guid>
-        <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Apache Struts Command Injection Vulnerability</b><br/>
-Vendor: Apache<br/>
-Product: Struts<br/><br/>
-Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2023-22894 - Strapi - Strapi</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-22894</link>
-        <guid isPermaLink="false">CVE-2023-22894</guid>
-        <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Strapi Cleartext Storage of Sensitive Information Vulnerability</b><br/>
-Vendor: Strapi<br/>
-Product: Strapi<br/><br/>
-Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution. 
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2021-3199 - ONLYOFFICE - Docs</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-3199</link>
-        <guid isPermaLink="false">CVE-2021-3199</guid>
-        <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>ONLYOFFICE Docs Server Path Traversal Vulnerability</b><br/>
-Vendor: ONLYOFFICE<br/>
-Product: Docs<br/><br/>
-ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2015-3306 - ProFTPD - ProFTPD</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-3306</link>
-        <guid isPermaLink="false">CVE-2015-3306</guid>
-        <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>ProFTPD Improper Access Control Vulnerability</b><br/>
-Vendor: ProFTPD<br/>
-Product: ProFTPD<br/><br/>
-ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
-        ]]></description>
-    </item>
+<lastBuildDate>2026-10-10 03:29:09 Europe/Rome</lastBuildDate>
 
 </channel>
 </rss>
