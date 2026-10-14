@@ -4,7 +4,33 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-13 04:49:11 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-14 02:50:15 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-104935 - Ivanti - Connect Secure</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935</link>
+        <guid isPermaLink="false">CVE-2026-104935</guid>
+        <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability</b><br/>
+Vendor: Ivanti<br/>
+Product: Connect Secure<br/><br/>
+Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-96951 - Microsoft - Windows</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96951</link>
+        <guid isPermaLink="false">CVE-2026-96951</guid>
+        <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Microsoft Windows Command Injection Vulnerability</b><br/>
+Vendor: Microsoft<br/>
+Product: Windows<br/><br/>
+Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
