@@ -4,57 +4,18 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-15 02:16:10 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-16 02:03:07 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-105134 - Ahsay - AhsayCBS</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105134</link>
-        <guid isPermaLink="false">CVE-2026-105134</guid>
-        <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-21589 - Atlassian - Multiple Products</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589</link>
+        <guid isPermaLink="false">CVE-2026-21589</guid>
+        <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Ahsay AhsayCBS Command Injection Vulnerability</b><br/>
-Vendor: Ahsay<br/>
-Product: AhsayCBS<br/><br/>
-Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-76519 - Cisco - Secure Email Gateway</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519</link>
-        <guid isPermaLink="false">CVE-2026-76519</guid>
-        <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Cisco Secure Email Gateway Relative Path Traversal Vulnerability</b><br/>
-Vendor: Cisco<br/>
-Product: Secure Email Gateway<br/><br/>
-Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-105133 - Ahsay - AhsayCBS</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105133</link>
-        <guid isPermaLink="false">CVE-2026-105133</guid>
-        <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Ahsay AhsayCBS Improper Authentication Vulnerability</b><br/>
-Vendor: Ahsay<br/>
-Product: AhsayCBS<br/><br/>
-Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-0322 - Palo Alto Networks - PAN-OS</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0322</link>
-        <guid isPermaLink="false">CVE-2026-0322</guid>
-        <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Palo Alto Networks PAN-OS Code Injection Vulnerability</b><br/>
-Vendor: Palo Alto Networks<br/>
-Product: PAN-OS<br/><br/>
-Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.
+<b>Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability</b><br/>
+Vendor: Atlassian<br/>
+Product: Multiple Products<br/><br/>
+Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.
         ]]></description>
     </item>
 
