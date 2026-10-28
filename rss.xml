@@ -4,31 +4,31 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-27 02:04:34 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-28 01:56:49 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-109618 - PHP Group - PHP</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618</link>
-        <guid isPermaLink="false">CVE-2026-109618</guid>
-        <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-48356 - Adobe - Commerce and Magento</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356</link>
+        <guid isPermaLink="false">CVE-2026-48356</guid>
+        <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>PHP Memory Corruption Vulnerability</b><br/>
-Vendor: PHP Group<br/>
-Product: PHP<br/><br/>
-PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.
+<b>Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability</b><br/>
+Vendor: Adobe<br/>
+Product: Commerce and Magento<br/><br/>
+Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2026-109619 - PHP Group - PHP</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619</link>
-        <guid isPermaLink="false">CVE-2026-109619</guid>
-        <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-111497 - Google - Brotli</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111497</link>
+        <guid isPermaLink="false">CVE-2026-111497</guid>
+        <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>PHP Stale Internal Request-State Vulnerability</b><br/>
-Vendor: PHP Group<br/>
-Product: PHP<br/><br/>
-PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.
+<b>Google Brotli Unchecked Return Value Vulnerability</b><br/>
+Vendor: Google<br/>
+Product: Brotli<br/><br/>
+Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.
         ]]></description>
     </item>
 
