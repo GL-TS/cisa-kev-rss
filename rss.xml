@@ -4,31 +4,31 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-29 02:29:44 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-30 02:31:12 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-41709 - Broadcom - VMware ESX</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-41709</link>
-        <guid isPermaLink="false">CVE-2026-41709</guid>
-        <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-97229 - GitLab - Community Edition and Enterprise Edition</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-97229</link>
+        <guid isPermaLink="false">CVE-2026-97229</guid>
+        <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Broadcom VMWare ESX Insufficient Logging Vulnerability</b><br/>
-Vendor: Broadcom<br/>
-Product: VMware ESX<br/><br/>
-Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.
+<b>GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability</b><br/>
+Vendor: GitLab<br/>
+Product: Community Edition and Enterprise Edition<br/><br/>
+GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2026-46300 - Linux - Kernel</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300</link>
-        <guid isPermaLink="false">CVE-2026-46300</guid>
-        <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-76418 - Cisco - Secure Firewall ASA Software and Cisco Secure FTD Software</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76418</link>
+        <guid isPermaLink="false">CVE-2026-76418</guid>
+        <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Linux Kernel Missing Initialization of a Variable Vulnerability</b><br/>
-Vendor: Linux<br/>
-Product: Kernel<br/><br/>
-Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.
+<b>Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability</b><br/>
+Vendor: Cisco<br/>
+Product: Secure Firewall ASA Software and Cisco Secure FTD Software<br/><br/>
+Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.
         ]]></description>
     </item>
 
