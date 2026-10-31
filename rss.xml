@@ -4,31 +4,31 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-30 02:31:12 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-10-31 02:24:26 Europe/Rome</lastBuildDate>
 
     <item>
-        <title>CVE-2026-97229 - GitLab - Community Edition and Enterprise Edition</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-97229</link>
-        <guid isPermaLink="false">CVE-2026-97229</guid>
-        <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-118527 - Ivanti - Connect Secure</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-118527</link>
+        <guid isPermaLink="false">CVE-2026-118527</guid>
+        <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability</b><br/>
-Vendor: GitLab<br/>
-Product: Community Edition and Enterprise Edition<br/><br/>
-GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.
+<b>Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability</b><br/>
+Vendor: Ivanti<br/>
+Product: Connect Secure<br/><br/>
+Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.
         ]]></description>
     </item>
 
     <item>
-        <title>CVE-2026-76418 - Cisco - Secure Firewall ASA Software and Cisco Secure FTD Software</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76418</link>
-        <guid isPermaLink="false">CVE-2026-76418</guid>
-        <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+        <title>CVE-2026-111357 - Ivanti - Connect Secure</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111357</link>
+        <guid isPermaLink="false">CVE-2026-111357</guid>
+        <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
         <description><![CDATA[
-<b>Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability</b><br/>
-Vendor: Cisco<br/>
-Product: Secure Firewall ASA Software and Cisco Secure FTD Software<br/><br/>
-Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.
+<b>Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability</b><br/>
+Vendor: Ivanti<br/>
+Product: Connect Secure<br/><br/>
+Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.
         ]]></description>
     </item>
 
