@@ -4,33 +4,7 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-10-31 02:24:26 Europe/Rome</lastBuildDate>
-
-    <item>
-        <title>CVE-2026-118527 - Ivanti - Connect Secure</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-118527</link>
-        <guid isPermaLink="false">CVE-2026-118527</guid>
-        <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability</b><br/>
-Vendor: Ivanti<br/>
-Product: Connect Secure<br/><br/>
-Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-111357 - Ivanti - Connect Secure</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111357</link>
-        <guid isPermaLink="false">CVE-2026-111357</guid>
-        <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability</b><br/>
-Vendor: Ivanti<br/>
-Product: Connect Secure<br/><br/>
-Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.
-        ]]></description>
-    </item>
+<lastBuildDate>2026-11-01 01:39:31 Europe/Rome</lastBuildDate>
 
 </channel>
 </rss>
