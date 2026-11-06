@@ -4,20 +4,7 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-11-05 02:58:12 Europe/Rome</lastBuildDate>
-
-    <item>
-        <title>CVE-2024-27834 - Apple - Multiple Products</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-27834</link>
-        <guid isPermaLink="false">CVE-2024-27834</guid>
-        <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Apple Multiple Products Improper Authentication Vulnerability</b><br/>
-Vendor: Apple<br/>
-Product: Multiple Products<br/><br/>
-Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.
-        ]]></description>
-    </item>
+<lastBuildDate>2026-11-06 02:58:02 Europe/Rome</lastBuildDate>
 
 </channel>
 </rss>
