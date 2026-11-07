@@ -4,7 +4,20 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-11-06 02:58:02 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-11-07 02:34:20 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-19868 - SonicWall - SonicOS SSLVPN</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19868</link>
+        <guid isPermaLink="false">CVE-2026-19868</guid>
+        <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability</b><br/>
+Vendor: SonicWall<br/>
+Product: SonicOS SSLVPN<br/><br/>
+SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
