@@ -4,7 +4,20 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-11-17 05:17:54 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-11-18 04:17:33 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-115731 - Perforce - Puppet Enterprise</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-115731</link>
+        <guid isPermaLink="false">CVE-2026-115731</guid>
+        <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability</b><br/>
+Vendor: Perforce<br/>
+Product: Puppet Enterprise<br/><br/>
+Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
