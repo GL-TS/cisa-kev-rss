@@ -4,59 +4,7 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-11-19 03:55:20 Europe/Rome</lastBuildDate>
-
-    <item>
-        <title>CVE-2024-10441 - Synology - DiskStation Manager (DSM)</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-10441</link>
-        <guid isPermaLink="false">CVE-2024-10441</guid>
-        <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability</b><br/>
-Vendor: Synology<br/>
-Product: DiskStation Manager (DSM)<br/><br/>
-Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-40217 - BerriAI - LiteLLM</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-40217</link>
-        <guid isPermaLink="false">CVE-2026-40217</guid>
-        <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>BerriAI LiteLLM Unprotected Alternate Channel Vulnerability</b><br/>
-Vendor: BerriAI<br/>
-Product: LiteLLM<br/><br/>
-BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-90817 - Vanderbilt University - Research Electronic Data Capture (REDCap)</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90817</link>
-        <guid isPermaLink="false">CVE-2026-90817</guid>
-        <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability</b><br/>
-Vendor: Vanderbilt University<br/>
-Product: Research Electronic Data Capture (REDCap)<br/><br/>
-Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-90436 - Apache - Axis</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-90436</link>
-        <guid isPermaLink="false">CVE-2026-90436</guid>
-        <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Apache Axis Unsafe Reflection Vulnerability</b><br/>
-Vendor: Apache<br/>
-Product: Axis<br/><br/>
-Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.
-        ]]></description>
-    </item>
+<lastBuildDate>2026-11-20 03:49:07 Europe/Rome</lastBuildDate>
 
 </channel>
 </rss>
