@@ -4,59 +4,7 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-11-21 03:57:52 Europe/Rome</lastBuildDate>
-
-    <item>
-        <title>CVE-2026-129448 - Apache - Roller</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-129448</link>
-        <guid isPermaLink="false">CVE-2026-129448</guid>
-        <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Apache Roller Deserialization of Untrusted Data Vulnerability</b><br/>
-Vendor: Apache<br/>
-Product: Roller<br/><br/>
-Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-123890 - Broadcom - VMware vCenter</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123890</link>
-        <guid isPermaLink="false">CVE-2026-123890</guid>
-        <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability</b><br/>
-Vendor: Broadcom<br/>
-Product: VMware vCenter<br/><br/>
-Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2025-42884 - SAP - NetWeaver</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-42884</link>
-        <guid isPermaLink="false">CVE-2025-42884</guid>
-        <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability</b><br/>
-Vendor: SAP<br/>
-Product: NetWeaver<br/><br/>
-SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.
-        ]]></description>
-    </item>
-
-    <item>
-        <title>CVE-2026-76466 - Cisco - Expressway Series</title>
-        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76466</link>
-        <guid isPermaLink="false">CVE-2026-76466</guid>
-        <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-        <description><![CDATA[
-<b>Cisco Expressway Series Use of Hard-coded Credentials Vulnerability</b><br/>
-Vendor: Cisco<br/>
-Product: Expressway Series<br/><br/>
-Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.
-        ]]></description>
-    </item>
+<lastBuildDate>2026-11-22 02:52:25 Europe/Rome</lastBuildDate>
 
 </channel>
 </rss>
