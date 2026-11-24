@@ -4,7 +4,33 @@
 <title>CISA KEV Daily Feed</title>
 <link>https://GL-TS.github.io/cisa-kev-rss/rss.xml</link>
 <description>CISA KEV vulnerabilities added yesterday</description>
-<lastBuildDate>2026-11-23 03:11:47 Europe/Rome</lastBuildDate>
+<lastBuildDate>2026-11-24 06:43:23 Europe/Rome</lastBuildDate>
+
+    <item>
+        <title>CVE-2026-133968 - Project MONAI - MONAI Label</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-133968</link>
+        <guid isPermaLink="false">CVE-2026-133968</guid>
+        <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>Project MONAI MONAI Label Path Traversal Vulnerability</b><br/>
+Vendor: Project MONAI<br/>
+Product: MONAI Label<br/><br/>
+Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.
+        ]]></description>
+    </item>
+
+    <item>
+        <title>CVE-2026-134624 - N-able - MailAssure</title>
+        <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-134624</link>
+        <guid isPermaLink="false">CVE-2026-134624</guid>
+        <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[
+<b>N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability</b><br/>
+Vendor: N-able<br/>
+Product: MailAssure<br/><br/>
+N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.
+        ]]></description>
+    </item>
 
 </channel>
 </rss>
